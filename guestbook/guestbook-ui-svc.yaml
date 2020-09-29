@@ -7,7 +7,7 @@ spec:
   ports:
   - port: 3000
     targetPort: 80
-    protocol: tcp
+    protocol: TCP
     nodePort: 3000
   selector:
     app: guestbook-ui
