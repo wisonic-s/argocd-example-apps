@@ -5,9 +5,9 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - port: 3000
+  - port: 30000
     targetPort: 80
     protocol: TCP
-    nodePort: 3000
+    nodePort: 30000
   selector:
     app: guestbook-ui
